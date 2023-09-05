@@ -76,6 +76,7 @@
 
             <article style="width: 33%; float: left; text-align: center;">
                 <p style="font-size: 1.4rem; color: #445164;">Product Report</p>
+                <p style="margin: .4rem 0; font-size: 1rem; color: #090909;">Starting Balance: ৳ 12,000</p>
                 <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
             </article>
 

@@ -27,7 +27,7 @@
             font-weight: 600;
             color: #445164;
             text-align: start;
-            padding: .4rem .8rem;
+            padding: .3rem .8rem;
             text-transform: uppercase;
         }
 
@@ -38,7 +38,7 @@
             font-weight: 400;
             color: #090909;
             text-align: start;
-            padding: .4rem .8rem;
+            padding: .3rem .6rem;
             text-transform: none;
         }
 
@@ -48,20 +48,8 @@
             border: 1px solid #D1D1D1;
             border-spacing: 0;
         }
-
-        .grid_container>table td {
-            padding: .4rem .8rem;
-            color: #445164;
-            font-size: 1rem;
-            text-transform: uppercase;
-        }
-
-        .grid_container>table td p {
-            margin-top: .4rem
-        }
     </style>
 </head>
-
 
 <body>
     <main
@@ -75,93 +63,75 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">Product Report</p>
-                <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
+                <p style="font-size: 1.4rem; color: #445164;">Account Report</p>
+                <p style="margin: .4rem 0; font-size: 1rem; color: #090909;">একাউন্ট রিপোর্ট</p>
+                <p style="font-size: 1rem; color: #445164;">শুরুর ব্যালেন্স: ৳ 12,000</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023, 12:30 pm
+                রিপোর্ট তৈরি<br />১২ আগস্ট ২০২৩ । ০৮ঃ৩০ pm
             </p>
             <div style="clear: both;"></div>
         </section>
 
-        <section class="grid_container" style="margin-top: 2rem;">
-            <table style="width: 100%; padding:0; border:none;">
-                <tbody>
-                    <tr>
-                        <td colspan="2">
-                            <b>Total Product</b>
-                            <p>120</p>
-                        </td>
-                        <td colspan="2">
-                            <b>Total Stock</b>
-                            <p>12,000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>Reguler stock</b>
-                            <p>2000</p>
-                        </td>
-                        <td>
-                            <b>free stock</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>damage stock</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>expired stock</b>
-                            <p>200</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
+        <section style=" margin-top: 1.6rem;">
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">সব লেনদেন: 3</p>
 
-        <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">All Transections</p>
-
-            <table style="width: 100%; padding: 0; border:none;">
+            <table style="width: 100%; border: none; padding: 0;">
                 <tHead>
                     <tr>
-                        <th style="width: 16rem;">product name</th>
-                        <th style="width: 8.9rem;">
-                            <div style="display: flex; flex-direction: column;">
-                                <span>current stock</span>
-                                <small style="font-size: .7rem; font-weight: 400;">Inc. Free, Damage, exp.</small>
-                            </div>
-                        </th>
-                        <th style="width:6.6rem;">free stock</th>
-                        <th style="width:10.2rem;">damage+exp.stock</th>
-                        <th style="width:7rem;">sell rate</th>
+                        <th style="width: 10rem;">লেনদেন তারিখ</th>
+                        <th style="width: 17rem;">লেনদেন ধরণ</th>
+                        <th> উত্তোলন</th>
+                        <th>জমা</th>
+                        <th>ব্যালেন্স</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 17rem;">ক্যাশ ইন</td>
+                        <td>0.00</td>
+                        <td>৳ 10,000</td>
+                        <td>৳ 22,000</td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml name will be place thius area</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 17rem;">খরচ: Expense category name will place this area.</td>
+                        <td>৳ 2,000</td>
+                        <td>0.00</td>
+                        <td>৳ 20,000</td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 17rem;">ক্যাশ আউট</td>
+                        <td>৳ 2,000</td>
+                        <td>0.00</td>
+                        <td>৳ 20,000</td>
                     </tr>
                 </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="width: 10rem; border: none;"></td>
+                        <td style="width: 17rem; border: none; text-align: right; font-weight: 600;">
+                            <span>সর্বমোট</span>
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            ৳ 2,000
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            0.00
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            ৳ 20,000
+                        </td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
 

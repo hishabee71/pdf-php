@@ -75,12 +75,12 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">Product Report</p>
+                <p style="font-size: 1.4rem; color: #445164;">পণ্যের রিপোর্ট</p>
                 <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023, 12:30 pm
+                রিপোর্ট তৈরি<br />১২ আগস্ট  ২০২৩ । ০৮ঃ৩০ pm
             </p>
             <div style="clear: both;"></div>
         </section>
@@ -90,29 +90,29 @@
                 <tbody>
                     <tr>
                         <td colspan="2">
-                            <b>Total Product</b>
+                            <b>মোট পণ্য</b>
                             <p>120</p>
                         </td>
                         <td colspan="2">
-                            <b>Total Stock</b>
+                            <b>মোট স্টক</b>
                             <p>12,000</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Reguler stock</b>
+                            <b>সাধারণ স্টক</b>
                             <p>2000</p>
                         </td>
                         <td>
-                            <b>free stock</b>
+                            <b>ফ্রি স্টক</b>
                             <p>200</p>
                         </td>
                         <td>
-                            <b>damage stock</b>
+                            <b>ড্যামেজ স্টক </b>
                             <p>200</p>
                         </td>
                         <td>
-                            <b>expired stock</b>
+                            <b>মেয়াদউত্তীর্ণ স্টক</b>
                             <p>200</p>
                         </td>
                     </tr>
@@ -121,21 +121,21 @@
         </section>
 
         <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">All Transections</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">পণ্যের তালিকাঃ ৩</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 16rem;">product name</th>
+                        <th style="width: 16rem;">পণ্যের নাম</th>
                         <th style="width: 8.9rem;">
                             <div style="display: flex; flex-direction: column;">
-                                <span>current stock</span>
-                                <small style="font-size: .7rem; font-weight: 400;">Inc. Free, Damage, exp.</small>
+                                <span>বর্তমান স্টক</span>
+                                <small style="font-size: .7rem; font-weight: 400;">ফ্রি, ড্যামেজ,  সহ</small>
                             </div>
                         </th>
-                        <th style="width:6.6rem;">free stock</th>
-                        <th style="width:10.2rem;">damage+exp.stock</th>
-                        <th style="width:7rem;">sell rate</th>
+                        <th style="width:6.6rem;">ফ্রি স্টক</th>
+                        <th style="width:10.2rem;">ড্যামেজ + মেয়াদোত্তীর্ণ স্টক</th>
+                        <th style="width:7rem;">বেচা দর</th>
                     </tr>
                 </tHead>
 

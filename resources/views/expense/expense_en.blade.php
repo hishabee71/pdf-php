@@ -53,7 +53,6 @@
             padding: .4rem .8rem;
             color: #445164;
             font-size: 1rem;
-            text-transform: uppercase;
         }
 
         .grid_container>table td p {
@@ -75,8 +74,8 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">Product Report</p>
-                <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
+                <p style="font-size: 1.4rem; color: #445164;">Expense Report</p>
+                <p style="margin-top: .4rem; font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
@@ -86,34 +85,43 @@
         </section>
 
         <section class="grid_container" style="margin-top: 2rem;">
+            <p
+                style="font-size: 1.2rem; font-weight: 600; color: #445164; margin-bottom: .6rem; text-transform: uppercase;">
+                Total expense category: 11
+            </p>
+
             <table style="width: 100%; padding:0; border:none;">
                 <tbody>
                     <tr>
-                        <td colspan="2">
-                            <b>Total Product</b>
-                            <p>120</p>
+                        <td>
+                            <b>Basa vara</b>
+                            <p>৳ 12,000</p>
                         </td>
-                        <td colspan="2">
-                            <b>Total Stock</b>
-                            <p>12,000</p>
+                        <td>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
+                        </td>
+                        <td>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
+                        </td>
+                        <td>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Reguler stock</b>
-                            <p>2000</p>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
                         </td>
                         <td>
-                            <b>free stock</b>
-                            <p>200</p>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
                         </td>
                         <td>
-                            <b>damage stock</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>expired stock</b>
-                            <p>200</p>
+                            <b>বাসা ভাড়া</b>
+                            <p>৳ 12,000</p>
                         </td>
                     </tr>
                 </tbody>
@@ -126,44 +134,49 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 16rem;">product name</th>
-                        <th style="width: 8.9rem;">
-                            <div style="display: flex; flex-direction: column;">
-                                <span>current stock</span>
-                                <small style="font-size: .7rem; font-weight: 400;">Inc. Free, Damage, exp.</small>
-                            </div>
-                        </th>
-                        <th style="width:6.6rem;">free stock</th>
-                        <th style="width:10.2rem;">damage+exp.stock</th>
-                        <th style="width:7rem;">sell rate</th>
+                        <th style="width: 10rem;">Date</th>
+                        <th style="width: 21.7rem;">Expense type</th>
+                        <th>Note</th>
+                        <th>Amount</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 21.7rem;">বাসা ভাড়া</td>
+                        <td>---</td>
+                        <td>৳ 2,000</td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml name will be place thius area</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 21.7rem;">ভ্যান ভাড়া Expense category name will be place thius area</td>
+                        <td>The note user provide place here</td>
+                        <td>৳ 2,000</td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 10rem;">12 September 2023</td>
+                        <td style="width: 21.7rem;">দোকান ভাড়া</td>
+                        <td>The note user provide </td>
+                        <td>৳ 2,000</td>
                     </tr>
                 </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="width: 10rem; border-color: transparent;"></td>
+                        <td style="width: 17rem; border-color: transparent;"></td>
+                        <td style="border-color: transparent; font-weight: 600; text-align: right;">
+                            <span>Total Expense</span>
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600; ">
+                            ৳ 4,000</td>
+                    </tr>
+                </tfoot>
             </table>
         </section>
+
 
         <section style="position: absolute; width: 100%; left: 0; bottom: 4rem; padding: 0 3.2rem; height: 5rem;">
             <div style="float: left; width: 33%;">
