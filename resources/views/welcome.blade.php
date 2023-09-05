@@ -54,6 +54,7 @@
             color: #445164;
             font-size: 1rem;
             text-transform: uppercase;
+            width: 50%;
         }
 
         .grid_container>table td p {
@@ -89,31 +90,23 @@
             <table style="width: 100%; padding:0; border:none;">
                 <tbody>
                     <tr>
-                        <td colspan="2">
-                            <b>Total Product</b>
-                            <p>120</p>
+                        <td>
+                            <b>batch no</b>
+                            <p>02-August-2023, 12:30 pm</p>
                         </td>
-                        <td colspan="2">
-                            <b>Total Stock</b>
-                            <p>12,000</p>
+                        <td>
+                            <b>Challan no</b>
+                            <p>1121212</p>
                         </td>
                     </tr>
                     <tr>
                         <td>
-                            <b>Reguler stock</b>
-                            <p>2000</p>
+                            <b>Supplier</b>
+                            <p>Asharafull</p>
                         </td>
                         <td>
-                            <b>free stock</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>damage stock</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>expired stock</b>
-                            <p>200</p>
+                            <b>MOBILE</b>
+                            <p>01134649840</p>
                         </td>
                     </tr>
                 </tbody>
@@ -121,48 +114,52 @@
         </section>
 
         <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">All Transections</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Product list: (03)</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 16rem;">product name</th>
-                        <th style="width: 8.9rem;">
-                            <div style="display: flex; flex-direction: column;">
-                                <span>current stock</span>
-                                <small style="font-size: .7rem; font-weight: 400;">Inc. Free, Damage, exp.</small>
-                            </div>
-                        </th>
-                        <th style="width:6.6rem;">free stock</th>
-                        <th style="width:10.2rem;">damage+exp.stock</th>
-                        <th style="width:7rem;">sell rate</th>
+                        <th style="width: 17rem;">product name</th>
+                        <th>QTY</th>
+                        <th style="width:9.2rem;">rate</th>
+                        <th>free</th>
+                        <th style="width:9.2rem;">total taka</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 17rem;">
+                            <p>কোকাকোলা ৬০০ মিলি</p>
+                        </td>
+                        <td>50</td>
+                        <td style="width:9.2rem;">৳ 400</td>
+                        <td>10</td>
+                        <td style="width:9.2rem;">৳ 6,000</td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml name will be place thius area</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 17rem;">
+                            <p>কোকাকোলা ৬০০ মিলি</p>
+                            name will be place thius area
+                        </td>
+                        <td>50</td>
+                        <td style="width:9.2rem;">৳ 400</td>
+                        <td>10</td>
+                        <td style="width:9.2rem;">৳ 6,000</td>
                     </tr>
                 </tbody>
             </table>
+            
+            <article style="float:right; text-align: right; font-size: 1rem; color:#445164; margin-top: 2rem; text-transform: uppercase">
+                <p> <b>total Amount</b> <span style="display: inline-block; min-width: 5rem; padding-top:0.2rem;">৳ 18,000</span> </p>
+
+                <p style="padding: 1rem 0; border-bottom: 1px dashed #D1D1D1; margin-bottom: 1rem;">
+                     <b>payment Amount</b> <span style="display: inline-block; min-width: 5rem; padding-top:0.2rem; ">৳ 15,000</span> 
+                </p>
+                <p> <b>total Amount</b> <span style="display: inline-block; min-width: 5rem; padding-top:0.2rem;">৳ 18,000</span> </p>
+            
+            </article>
+            <div style="clear: both;"></div>
         </section>
 
         <section style="position: absolute; width: 100%; left: 0; bottom: 4rem; padding: 0 3.2rem; height: 5rem;">
