@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    
+        table,
+        tHead,
+        th {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #445164;
+            text-align: start;
+            padding: .3rem .8rem;
+            text-transform: uppercase;
+        }
+    
+        table,
+        tbody,
+        td {
+            font-size: .9rem;
+            font-weight: 400;
+            color: #090909;
+            text-align: start;
+            padding: .3rem .6rem;
+            text-transform: none;
+        }
+    
+        table,
+        th,
+        td {
+            border: 1px solid #D1D1D1;
+            border-spacing: 0;
+        }
+    </style>
+</head>
+
+
+<body style="width: 59.5rem; min-height: 84.2rem; background-color: #ffffff; position: relative">
+    <main style="position:absolute; top:0; left:0; margin: 0 auto; background-color: #ffffff; padding: 3.2rem 0;">
+
+        <section style="padding-left: 3rem;">
+            <article style="width: 33%; float: left;">
+                <p style="color: #090909; font-size: 1.2rem;">আদিব ডিস্ট্রিবিউশন হাউজ</p>
+                <p style="margin: .4rem 0; color: #445164; font-size: 1rem;">01512404141</p>
+                <p style="color: #445164; font-size: 1rem;">Farmgate, Dhaka</p>
+            </article>
+
+            <article style="width: 36%; float: left; text-align: center;">
+                <p style="font-size: 1.4rem; color: #445164;">Account Report</p>
+                <p style="margin: .4rem 0; font-size: 1rem; color: #090909;">Starting Balance: ৳ 12,000</p>
+                <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
+            </article>
+
+            <p style="width: 30%; float: left; font-size: .8rem; color: #272727; text-align: right;">
+                Report generate<br />12 August 2023, 12:30 pm
+            </p>
+            <div style="clear: both;"></div>
+        </section>
+
+        <section style="margin-top: 1.6rem; padding-left: 3rem;">
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">All Transections: 3</p>
+
+            <table style="border: none; padding: 0;">
+                <tHead>
+                    <tr>
+                        <th style="width: 7rem">Trans. Date</th>
+                        <th style="width: 11.5rem">Transaction type</th>
+                        <th style="width: 4.5rem">Withdraw</th>
+                        <th style="width: 5rem">deposit</th>
+                        <th style="width: 5.5rem">balance</th>
+                    </tr>
+                </tHead>
+
+                <tbody>
+                    <tr>
+                        <td style="width: 7rem">12 September 2023</td>
+                        <td style="width: 11.5rem">Cash In</td>
+                        <td style="width: 4.5rem">0.00</td>
+                        <td style="width: 5rem">৳ 10,000</td>
+                        <td style="width: 5.5rem">৳ 22,000</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 7rem">12 September 2023</td>
+                        <td style="width: 11.5rem">Expense: Expense category Expense category</td>
+                        <td style="width: 4.5rem">৳ 2,000</td>
+                        <td style="width: 5rem">0.00</td>
+                        <td style="width: 5.5rem">৳ 20,000</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 7rem">12 September 2023</td>
+                        <td style="width: 11.5rem">Cash Out</td>
+                        <td style="width: 4.5rem">৳ 2,000</td>
+                        <td style="width: 5rem">0.00</td>
+                        <td style="width: 5.5rem">৳ 20,000</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="border: none;"></td>
+                        <td style="border: none; text-align: right; font-weight: 600;">
+                            <span>Total</span>
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            ৳ 2,000
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            0.00
+                        </td>
+                        <td
+                            style="border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            ৳ 20,000
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section style="width: 94%; position: absolute; left: 0; bottom: 3rem; padding-left: 3rem; height: 5rem;">
+            <div style="float: left; width: 33%;">
+                <svg width="60" height="48" viewBox="0 0 60 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g opacity="0.2">
+                        <path
+                            d="M31.9835 36.5306C32.0329 38.2852 31.172 39.9444 29.7105 40.9127C28.2491 41.8811 26.3905 42.0237 24.7989 41.2883C23.2116 40.5554 22.118 39.0466 21.9126 37.3052L11.4179 31.246C9.80704 31.9389 7.95358 31.7462 6.52522 30.738C5.09687 29.7298 4.2911 28.0489 4.39897 26.2991C4.50684 24.5492 5.5158 22.9698 7.0532 22.1371C8.59736 21.3025 10.4611 21.3291 11.9775 22.2046L20.7245 27.2547L18.3963 28.2502L21.0221 29.7662L20.7202 27.2522L29.4672 32.3023C30.9793 33.1753 31.9342 34.7761 31.9835 36.5306ZM21.615 34.7936L21.3173 32.2821L16.0699 29.2525L13.7461 30.2505L21.615 34.7936Z"
+                            fill="#626262" />
+                        <path
+                            d="M11.2754 33.5093L20.0224 38.5594C19.3495 39.725 18.2413 40.5761 16.9488 40.9252C15.6496 41.2762 14.2745 41.0958 13.1136 40.4256C11.9528 39.7554 11.109 38.6547 10.7634 37.3541C10.422 36.0559 10.6025 34.6749 11.2754 33.5093Z"
+                            fill="#626262" />
+                        <path
+                            d="M29.1535 19.7864C29.4992 21.087 29.3144 22.4655 28.6414 23.6311C27.9685 24.7966 26.867 25.646 25.5678 25.9969C24.2686 26.3478 22.8935 26.1675 21.7327 25.4973C20.5718 24.8271 19.7281 23.7263 19.3824 22.4257C19.0367 21.1251 19.219 19.7508 19.8919 18.5853C20.5673 17.4154 21.6663 16.5704 22.9655 16.2195C24.2672 15.8643 25.6424 16.0446 26.8032 16.7148C27.9641 17.385 28.8078 18.4858 29.1535 19.7864Z"
+                            fill="#626262" />
+                    </g>
+                    <g opacity="0.2">
+                        <path
+                            d="M55.1802 37.8508C55.2013 38.5994 54.834 39.3073 54.2104 39.7204C53.5869 40.1335 52.7939 40.1944 52.1149 39.8807C51.4377 39.568 50.9711 38.9242 50.8835 38.1812L46.4059 35.5961C45.7186 35.8917 44.9278 35.8095 44.3184 35.3794C43.709 34.9492 43.3652 34.232 43.4112 33.4855C43.4573 32.7389 43.8877 32.0651 44.5437 31.7098C45.2025 31.3537 45.9976 31.365 46.6446 31.7386L50.3765 33.8932L49.3832 34.3179L50.5035 34.9647L50.3747 33.8921L54.1066 36.0468C54.7518 36.4192 55.1592 37.1022 55.1802 37.8508ZM50.7565 37.1097L50.6295 36.0381L48.3907 34.7456L47.3992 35.1714L50.7565 37.1097Z"
+                            fill="#626262" />
+                        <path
+                            d="M46.3438 36.5618L50.0757 38.7164C49.7886 39.2137 49.3157 39.5768 48.7643 39.7258C48.21 39.8755 47.6233 39.7986 47.128 39.5126C46.6328 39.2267 46.2728 38.757 46.1253 38.2021C45.9796 37.6483 46.0566 37.059 46.3438 36.5618Z"
+                            fill="#626262" />
+                        <path
+                            d="M53.9722 30.7068C54.1197 31.2617 54.0409 31.8499 53.7538 32.3472C53.4667 32.8445 52.9967 33.2068 52.4424 33.3565C51.8881 33.5063 51.3014 33.4293 50.8061 33.1434C50.3108 32.8574 49.9509 32.3878 49.8034 31.8329C49.6559 31.278 49.7337 30.6917 50.0208 30.1944C50.3089 29.6953 50.7778 29.3347 51.3321 29.185C51.8875 29.0335 52.4742 29.1104 52.9695 29.3963C53.4648 29.6823 53.8247 30.1519 53.9722 30.7068Z"
+                            fill="#626262" />
+                    </g>
+                    <g opacity="0.2">
+                        <path
+                            d="M54.7937 16.6105C54.8228 17.6442 54.3156 18.6217 53.4546 19.1922C52.5936 19.7627 51.4986 19.8467 50.561 19.4135C49.6258 18.9817 48.9815 18.0928 48.8605 17.0668L42.6777 13.4972C41.7287 13.9054 40.6367 13.7918 39.7952 13.1979C38.9537 12.6039 38.479 11.6136 38.5426 10.5827C38.6061 9.55182 39.2005 8.62133 40.1063 8.13073C41.016 7.63905 42.114 7.65471 43.0073 8.17049L48.1606 11.1457L46.7889 11.7322L48.3359 12.6254L48.158 11.1443L53.3113 14.1195C54.2021 14.6338 54.7646 15.5768 54.7937 16.6105ZM48.6852 15.5872L48.5098 14.1075L45.4184 12.3227L44.0493 12.9107L48.6852 15.5872Z"
+                            fill="#626262" />
+                        <path
+                            d="M42.5938 14.8306L47.747 17.8058C47.3505 18.4924 46.6976 18.9939 45.9362 19.1996C45.1708 19.4063 44.3606 19.3001 43.6767 18.9052C42.9928 18.5104 42.4957 17.8619 42.2921 17.0956C42.091 16.3309 42.1973 15.5172 42.5938 14.8306Z"
+                            fill="#626262" />
+                        <path
+                            d="M53.1273 6.74585C53.3309 7.51209 53.2221 8.32426 52.8256 9.01092C52.4292 9.69759 51.7802 10.198 51.0148 10.4047C50.2494 10.6115 49.4393 10.5052 48.7554 10.1104C48.0715 9.71551 47.5744 9.06703 47.3707 8.30078C47.1671 7.53454 47.2745 6.72491 47.6709 6.03825C48.0688 5.34904 48.7163 4.85121 49.4817 4.64446C50.2486 4.43518 51.0587 4.54143 51.7426 4.93628C52.4265 5.33113 52.9236 5.97961 53.1273 6.74585Z"
+                            fill="#626262" />
+                    </g>
+                </svg>
+            </div>
+
+            <div style="float: left; width: 33%; padding-top: 3rem; font-size: 1.4rem; color: #090909;">
+                <div style="float: left;">
+                    <img src="{{ asset('image/brand_logo.png') }}" alt="">
+                </div>
+                <span style="display: inline-block; padding: .1rem 0 0 .2rem;">Generated by Paikari</span>
+            </div>
+
+            <p
+                style="float: right; width: 33%; padding-top: 3.6rem; text-align: right; font-size: .6rem; color: #000000;">
+                Page 1 / 1</p>
+        </section>
+        <div style="height: 5rem;"></div>
+    </main>
+</body>
+
+</html>
