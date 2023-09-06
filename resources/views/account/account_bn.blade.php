@@ -68,7 +68,7 @@
                 <p style="font-size: 1rem; color: #445164;">শুরুর ব্যালেন্স: ৳ 12,000</p>
             </article>
 
-            <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: left;">
+            <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
                 রিপোর্ট তৈরি<br />১২ আগস্ট ২০২৩ । ০৮ঃ৩০ pm
             </p>
             <div style="clear: both;"></div>
@@ -115,7 +115,7 @@
                 <tfoot>
                     <tr>
                         <td style="width: 10rem; border: none;"></td>
-                        <td style="width: 17rem; border: none; text-align: left; font-weight: 600;">
+                        <td style="width: 17rem; border: none; text-align: right; font-weight: 600;">
                             <span>সর্বমোট</span>
                         </td>
                         <td
@@ -195,7 +195,7 @@
             </div>
 
             <p
-                style="float: right; width: 33%; padding-top: 3.6rem; text-align: left; font-size: .6rem; color: #000000">
+                style="float: right; width: 33%; padding-top: 3.6rem; text-align: right; font-size: .6rem; color: #000000">
                 Page 1 / 1</p>
         </section>
         <div style="height: 5rem;"></div>

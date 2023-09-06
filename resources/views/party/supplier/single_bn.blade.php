@@ -27,7 +27,7 @@
             font-weight: 600;
             color: #445164;
             text-align: left;
-            padding: .4rem .8rem;
+            padding: .6rem .6rem;
             text-transform: uppercase;
         }
 
@@ -38,7 +38,7 @@
             font-weight: 400;
             color: #090909;
             text-align: left;
-            padding: .4rem .8rem;
+            padding: .6rem .6rem;
             text-transform: none;
         }
 
@@ -47,6 +47,13 @@
         td {
             border: 1px solid #D1D1D1;
             border-spacing: 0;
+        }
+
+        .table_footer_underline {
+            border-right: none;
+            border-left: none;
+            border-bottom-color: black;
+            font-weight: 600;
         }
     </style>
 </head>
@@ -63,42 +70,76 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">লো স্টক রিপোর্ট</p>
+                <p style="font-size: 1.4rem; color: #445164;">সাপ্লায়ার রিপোর্ট</p>
+                <p style="font-size: 1rem; color: #445164; margin: .5rem 0;">আগস্ট 2023</p>
+                <b style="font-size: 1.4rem; color: #090909;">Nizam Uddin</b>
+                <p style="font-size: 1rem; color: #445164; margin-top: .4rem;">মোবাইল: 01900998877</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                রিপোর্ট তৈরি<br />১২ আগস্ট ২০২৩ । ০৮ঃ৩০ pm
+                রিপোর্ট তৈরি<br />১২ আগস্ট  ২০২৩ । ০৮ঃ৩০ pm
             </p>
             <div style="clear: both;"></div>
         </section>
 
-        <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">পণ্যের তালিকা (03)</p>
+        <section style="margin-top: 3rem;">
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">সব লেনদেন</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 13rem;">পণ্যের নাম</th>
-                        <th style="width:8rem;">স্টক পরিমান</th>
-                        <th style="width:7rem;">মোট দাম</th>
-                        <th style="width:8rem;">মন্তব্য</th>
+                        <th style="width: 9.8rem;">তারিখ</th>
+                        <th style="width: 12.3rem;">লেনদেনের ধরণ</th>
+                        <th style="width: 12.3rem;">পরিমান</th>
+                        <th style="width: 11.7rem;">পরিশোধ</th>
+                        <th style="width: 7rem;">বাকী</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
-                        <td style="width:8rem;">120</td>
-                        <td style="width:7rem;">৳ 46854</td>
-                        <td style="width:8rem;"></td>
+                        <td style="width: 9.8rem;">১২ সেপ্টেম্বর ২০২৩ ১২ঃ৩০ pm</td>
+                        <td style="width: 12.3rem;">স্টক ইন</td>
+                        <td style="width: 12.3rem;">৳ 2,000</td>
+                        <td style="width: 11.7rem;">৳ 2,000</td>
+                        <td style="width: 7rem;">৳ 0</td>
                     </tr>
                     <tr>
-                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
-                        <td style="width:8rem;">120</td>
-                        <td style="width:7rem;">৳ 5435</td>
-                        <td style="width:8rem;"></td>
+                        <td style="width: 9.8rem;">12 September 2023 12:30 pm</td>
+                        <td style="width: 12.3rem;">বাকী পরিশোধ</td>
+                        <td style="width: 12.3rem;">৳ 1,000</td>
+                        <td style="width: 11.7rem;">
+                            <p>0</p>
+                            <p>(জমা থেকে পরিশোধ)</p>
+                        </td>
+                        <td style="width: 7rem;">৳ 1,000</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 9.8rem;">12 September 2023 12:30 pm</td>
+                        <td style="width: 12.3rem;">অগ্রিম জমা</td>
+                        <td style="width: 12.3rem;">৳ 1,000</td>
+                        <td style="width: 11.7rem;"> ---</td>
+                        <td style="width: 7rem;">৳ 1,000</td>
                     </tr>
                 </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="width: 9.8rem; border: none;"></td>
+                        <td style="width: 12.3rem; border: none;"></td>
+                        <td style="width: 12.3rem; border: none;"></td>
+                        <td style="width: 11.7rem; border: none; text-align: right; font-weight: 600;">মোট লেনদেন
+                        </td>
+                        <td style="width: 7rem;" class="table_footer_underline">৳ 10,000</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 9.8rem; border: none;"></td>
+                        <td style="width: 12.3rem; border: none;"></td>
+                        <td style="width: 12.3rem; border: none;"></td>
+                        <td style="width: 11.7rem; border: none; text-align: right; font-weight: 600;">আমার বাকী</td>
+                        <td style="width: 7rem;" class="table_footer_underline">৳ 10,000</td>
+                    </tr>
+                </tfoot>
             </table>
 
         </section>

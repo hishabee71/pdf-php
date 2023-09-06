@@ -27,7 +27,7 @@
             font-weight: 600;
             color: #445164;
             text-align: left;
-            padding: .4rem .8rem;
+            padding: .4rem .6rem;
             text-transform: uppercase;
         }
 
@@ -38,7 +38,7 @@
             font-weight: 400;
             color: #090909;
             text-align: left;
-            padding: .4rem .8rem;
+            padding: .4rem .6rem;
             text-transform: none;
         }
 
@@ -48,8 +48,16 @@
             border: 1px solid #D1D1D1;
             border-spacing: 0;
         }
+
+        .table_footer_underline {
+            border-right: none;
+            border-left: none;
+            border-bottom-color: black;
+            font-weight: 600;
+        }
     </style>
 </head>
+
 
 <body>
     <main
@@ -63,7 +71,8 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">লো স্টক রিপোর্ট</p>
+                <p style="font-size: 1.4rem; color: #445164;">সকল সাপ্লায়ার রিপোর্ট</p>
+                <p style="font-size: 1rem; color: #445164;">August 2023</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
@@ -72,33 +81,48 @@
             <div style="clear: both;"></div>
         </section>
 
-        <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">পণ্যের তালিকা (03)</p>
+        <section style="margin-top: 3rem;">
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">সাপ্লায়ার তালিকাঃ ২</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 13rem;">পণ্যের নাম</th>
-                        <th style="width:8rem;">স্টক পরিমান</th>
-                        <th style="width:7rem;">মোট দাম</th>
-                        <th style="width:8rem;">মন্তব্য</th>
+                        <th style="width: 14rem;">নাম ও মোবাইল</th>
+                        <th style="width: 11rem;">লেনদেন (৳)</th>
+                        <th style="width: 8rem;">অগ্রিম জমা</th>
+                        <th style="width: 10.5rem;">বাকী</th>
+                        <th style="width: 10rem;">পরিশোধ তারিখ</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
-                        <td style="width:8rem;">120</td>
-                        <td style="width:7rem;">৳ 46854</td>
-                        <td style="width:8rem;"></td>
+                        <td style="width: 14rem;">Salim khan 01541202020</td>
+                        <td style="width: 11rem;">৳ 30,000</td>
+                        <td style="width: 8rem;">৳ 12,000,0,00</td>
+                        <td style="width: 10.5rem;">0.00</td>
+                        <td style="width: 10rem;">12 September 2023</td>
                     </tr>
                     <tr>
-                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
-                        <td style="width:8rem;">120</td>
-                        <td style="width:7rem;">৳ 5435</td>
-                        <td style="width:8rem;"></td>
+                        <td style="width: 14rem;">Salim khan 01541202020</td>
+                        <td style="width: 11rem;">৳ 30,000</td>
+                        <td style="width: 8rem;">0,00</td>
+                        <td style="width: 10.5rem;">120.00</td>
+                        <td style="width: 10rem;">12 September 2023</td>
                     </tr>
                 </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="width: 14rem; border: none; text-align: right; font-weight: 600;">
+                            <span>সর্বমোট</span>
+                        </td>
+                        <td style="width: 11rem;" class="table_footer_underline"> ৳ 60,000 </td>
+                        <td style="width: 8rem;" class="table_footer_underline"> ৳ 4,000</td>
+                        <td style="width: 10.5rem;" class="table_footer_underline"> ৳ 4,000</td>
+                        <td style="width: 10rem; border: none;"></td>
+                    </tr>
+                </tfoot>
             </table>
 
         </section>
