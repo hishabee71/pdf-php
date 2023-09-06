@@ -71,9 +71,8 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
-                <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Supplier Report</p>
+                <b style="font-size: 1.4rem; color: #090909;">Total Supplier: 12</b>
                 <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
             </article>
 
@@ -88,19 +87,19 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th style="width: 30%">total stock in product</th>
+                        <th style="width: 25%">stock in amount</th>
+                        <th style="width: 20%">deposit</th>
+                        <th style="width: 25%">due amount</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">234</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">34</td>
+                        <td style="width: 25%">৳ 238</td>
+                        <td style="width: 25%">৳ 5601545</td>
+                        <td style="width: 25%">234</td>
+                        <td style="width: 25%">৳ 5601545</td>
                     </tr>
                 </tbody>
             </table>
@@ -108,27 +107,33 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Transected Product List (1)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Supplier list (2) </p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 12rem;">Name & Mobile</th>
+                        <th style="width: 10.4rem;">stock in product</th>
+                        <th style="width: 10rem;">stock in amount</th>
+                        <th style="width: 10rem;">advance/due</th>
+                        <th style="width: 8.5rem;">payment date</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">Salim khan - 01541202020</td>
+                        <td style="width: 10.4rem;">120</td>
+                        <td style="width: 10rem;">৳ 30,000</td>
+                        <td style="width: 10rem;">Advance: ৳ 12,000,0,00</td>
+                        <td style="width: 8.5rem;">12 September 2023</td>
                     </tr>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">Salim khan - 01541202020</td>
+                        <td style="width: 10.4rem;">120</td>
+                        <td style="width: 10rem;">৳ 30,000</td>
+                        <td style="width: 10rem;">Due: ৳ 12,000,0,00</td>
+                        <td style="width: 8.5rem;">12 September 2023</td>
                     </tr>
                 </tbody>
             </table>

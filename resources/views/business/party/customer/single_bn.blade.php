@@ -71,14 +71,14 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">কাস্টোমার রিপোর্ট</p>
                 <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
+                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> মোবাইল: 01900998877</p>
+                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> আগস্ট ২০২৩</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023, 12:30 pm
+                রিপোর্ট তৈরিঃ<br />   ০৮ আগস্ট ২০২৩
             </p>
             <div style="clear: both;"></div>
         </section>
@@ -88,10 +88,10 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th style="width: 33%;">মোট স্টক আউট পণ্য</th>
+                        <th style="width: 33%;">মোট স্টক আউট টাকা</th>
+                        <th style="width: 15%;">বাকী আছে</th>
+                        <th style="width: 15%;">মোট ফেরত পরিমান</th>
                     </tr>
                 </tHead>
 
@@ -108,14 +108,14 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Transected Product List (1)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">লেনদেনকৃত পণ্যের তালিকা (২) </p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 50%;">পণ্য নাম</th>
+                        <th style="width: 25%;">স্টক আউট পরিমান</th>
+                        <th style="width: 25%;">ফেরত পরিমান</th>
                     </tr>
                 </tHead>
 

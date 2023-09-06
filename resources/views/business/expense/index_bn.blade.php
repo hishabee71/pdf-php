@@ -48,13 +48,6 @@
             border: 1px solid #D1D1D1;
             border-spacing: 0;
         }
-
-        .table_footer_underline {
-            border-right: none;
-            border-left: none;
-            border-bottom-color: black;
-            font-weight: 600;
-        }
     </style>
 </head>
 
@@ -71,14 +64,13 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
-                <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">খরচের রিপোর্ট</p>
+                <b style="font-size: 1.4rem; color: #090909;">মোট খরচ: ৳ 12,000</b>
+                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;">০২ আগস্ট ২০২৩, ১২:৩০ pm</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023, 12:30 pm
+                রিপোর্ট তৈরিঃ<br />০৮ আগস্ট ২০২৩
             </p>
             <div style="clear: both;"></div>
         </section>
@@ -88,19 +80,23 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th colspan="2" style="width: 50%; color: #090909; text-align:center">মাসের খরচ</th>
+                        <th colspan="2" style="width: 50%; color: #090909; text-align:center">দিনের খরচ</th>
+                    </tr>
+                    <tr>
+                        <th style="width: 25%">এই মাস</th>
+                        <th style="width: 25%">গতমাস</th>
+                        <th style="width: 25%">আজকের</th>
+                        <th style="width: 25%">গতকালের</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">234</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">34</td>
+                        <td style="width: 25%">৳ 238</td>
+                        <td style="width: 25%">৳ 5601545</td>
+                        <td style="width: 25%">234</td>
+                        <td style="width: 25%">৳ 5601545</td>
                     </tr>
                 </tbody>
             </table>
@@ -108,27 +104,64 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Transected Product List (1)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">খরচের ক্যাটাগরি (০৪)</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 2.6rem; text-align:center">#</th>
+                        <th style="width: 16.8rem;">ক্যাটাগরি</th>
+                        <th style="width: 16.8rem;">খরচের পরিমান</th>
+                        <th style="width: 16.8rem;">সর্বমোট খরচের - %</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 2.6rem; text-align:center">1</td>
+                        <td style="width: 16.8rem;">বাসা ভাড়া</td>
+                        <td style="width: 16.8rem;">45343</td>
+                        <td style="width: 16.8rem;">34%</td>
                     </tr>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 2.6rem; text-align:center">1</td>
+                        <td style="width: 16.8rem;">বাসা ভাড়া</td>
+                        <td style="width: 16.8rem;">45343</td>
+                        <td style="width: 16.8rem;">34%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        {{-- Table 3 --}}
+        <section style="margin-top: 2rem;">
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">All Transections</p>
+
+            <table style="width: 100%; padding: 0; border:none;">
+                <tHead>
+                    <tr>
+                        <th style="width: 9rem;">ইনভয়েস নং</th>
+                        <th style="width: 14.6rem;">লেনদেন ধরন</th>
+                        <th style="width: 9.5rem;">তারিখ</th>
+                        <th style="width: 8rem;">টাকা</th>
+                        <th style="width: 12rem;">নোট</th>
+                    </tr>
+                </tHead>
+
+                <tbody>
+                    <tr>
+                        <td style="width: 9rem;">6B1E73DA–0017</td>
+                        <td style="width: 14.6rem;">বাসা ভাড়া</td>
+                        <td style="width: 9.5rem;">12 September 2023</td>
+                        <td style="width: 8rem;">৳ 2,000</td>
+                        <td style="width: 12rem;">---</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 9rem;">6B1E73DA–0017</td>
+                        <td style="width: 14.6rem;">বাসা ভাড়া</td>
+                        <td style="width: 9.5rem;">12 September 2023</td>
+                        <td style="width: 8rem;">৳ 2,000</td>
+                        <td style="width: 12rem;">The note user provide place here</td>
                     </tr>
                 </tbody>
             </table>

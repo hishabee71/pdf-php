@@ -71,7 +71,7 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Supplier Report</p>
                 <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
                 <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
                 <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
@@ -88,19 +88,17 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th style="width: 33%;">total stock in product</th>
+                        <th style="width: 33%;">total stock in amount</th>
+                        <th style="width: 33%;">deposit</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">234</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">34</td>
+                        <td style="width: 33%;">123</td>
+                        <td style="width: 33%;">৳ 30,000</td>
+                        <td style="width: 33%;">৳ 30,000</td>
                     </tr>
                 </tbody>
             </table>
@@ -114,21 +112,14 @@
                 <tHead>
                     <tr>
                         <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 50%;">stock in quantity</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
                         <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 50%;">120</td>
                     </tr>
                 </tbody>
             </table>

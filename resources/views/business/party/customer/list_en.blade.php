@@ -72,8 +72,7 @@
 
             <article style="width: 33%; float: left; text-align: center;">
                 <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
-                <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
+                <b style="font-size: 1.4rem; color: #090909;">Total Customer: 12</b>
                 <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
             </article>
 
@@ -88,19 +87,21 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th>total stock out product</th>
+                        <th>amount</th>
+                        <th>deposit</th>
+                        <th>due amount</th>
+                        <th>return quantity</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">234</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">34</td>
+                        <td>120</td>
+                        <td>৳ 23,000</td>
+                        <td>৳ 23,000</td>
+                        <td>৳ 23,000</td>
+                        <td>5</td>
                     </tr>
                 </tbody>
             </table>
@@ -108,27 +109,48 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Transected Product List (1)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Customer list (02)</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 12rem;">Name & Mobile</th>
+                        <th style="width: 6rem;">product</th>
+                        <th>amount</th>
+                        <th style="width: 8rem;">advance/due</th>
+                        <th style="width: 8.5rem;">payment date</th>
+                        <th style="width: 10rem;">return quantity</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">
+                            <p>Salim khan</p>
+                            <p>01541202020</p>
+                        </td>
+                        <td style="width: 6rem;">129</td>
+                        <td>৳ 30,000</td>
+                        <td style="width: 8rem;">
+                            <p>Advance</p>
+                            <p>৳ 12,000,0,00</p>
+                        </td>
+                        <td style="width: 8.5rem;">---</td>
+                        <td style="width: 10rem;">123</td>
                     </tr>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">
+                            <p>Salim khan</p>
+                            <p>01541202020</p>
+                        </td>
+                        <td style="width: 6rem;">129</td>
+                        <td>৳ 30,000</td>
+                        <td style="width: 8rem;">
+                            <p>Due</p>
+                            <p>৳ 12,000,0,00</p>
+                        </td>
+                        <td style="width: 8.5rem;">---</td>
+                        <td style="width: 10rem;">123</td>
                     </tr>
                 </tbody>
             </table>

@@ -71,14 +71,13 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">Customer Report</p>
-                <b style="font-size: 1.4rem; color: #090909;">আরিফুল হক nmnn</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> Mobile: 01900998877</p>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> August 2023</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">সাপ্লায়ার রিপোর্ট</p>
+                <b style="font-size: 1.4rem; color: #090909;">মোট সাপ্লায়ার: ১২</b>
+                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;"> ০২ আগস্ট ২০২৩, ১২:৩০ pm</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023, 12:30 pm
+                রিপোর্ট তৈরিঃ<br />০৮ আগস্ট ২০২৩
             </p>
             <div style="clear: both;"></div>
         </section>
@@ -88,19 +87,19 @@
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 33%;">total stock out product</th>
-                        <th style="width: 33%;">total stock out amount</th>
-                        <th style="width: 15%;">due amount</th>
-                        <th style="width: 15%;">return quantity</th>
+                        <th style="width: 30%">মোট স্টক ইন পণ্য</th>
+                        <th style="width: 25%">স্টক ইন মূল্য</th>
+                        <th style="width: 20%">জমা</th>
+                        <th style="width: 25%">বাকী</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">234</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">৳ 30,000</td>
-                        <td style="width: 25%;">34</td>
+                        <td style="width: 25%">৳ 238</td>
+                        <td style="width: 25%">৳ 5601545</td>
+                        <td style="width: 25%">234</td>
+                        <td style="width: 25%">৳ 5601545</td>
                     </tr>
                 </tbody>
             </table>
@@ -108,27 +107,33 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Transected Product List (1)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">সাপ্লায়ার তালিকা (২) </p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 50%;">product name</th>
-                        <th style="width: 25%;">stock out quantity</th>
-                        <th style="width: 25%;">return quantity</th>
+                        <th style="width: 12rem;">নাম ও মোবাইল</th>
+                        <th style="width: 10.4rem;">স্টক ইন পণ্য</th>
+                        <th style="width: 10rem;">স্টক ইন মূল্য</th>
+                        <th style="width: 10rem;">জমা/বাকী</th>
+                        <th style="width: 9rem;">মূল্য পরিশোধ তারিখ</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">Salim khan - 01541202020</td>
+                        <td style="width: 10.4rem;">120</td>
+                        <td style="width: 10rem;">৳ 30,000</td>
+                        <td style="width: 10rem;">Advance: ৳ 12,000,0,00</td>
+                        <td style="width: 8.5rem;">12 September 2023</td>
                     </tr>
                     <tr>
-                        <td style="width: 50%;">কোকাকোলা ২৫০ মিলি</td>
-                        <td style="width: 25%;">3245</td>
-                        <td style="width: 25%;">55</td>
+                        <td style="width: 12rem;">Salim khan - 01541202020</td>
+                        <td style="width: 10.4rem;">120</td>
+                        <td style="width: 10rem;">৳ 30,000</td>
+                        <td style="width: 10rem;">Due: ৳ 12,000,0,00</td>
+                        <td style="width: 8.5rem;">12 September 2023</td>
                     </tr>
                 </tbody>
             </table>
