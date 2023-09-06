@@ -26,7 +26,7 @@
             font-size: 1rem;
             font-weight: 600;
             color: #445164;
-            text-align: start;
+            text-align: left;
             padding: .4rem .8rem;
             text-transform: uppercase;
         }
@@ -37,7 +37,7 @@
             font-size: .9rem;
             font-weight: 400;
             color: #090909;
-            text-align: start;
+            text-align: left;
             padding: .4rem .8rem;
             text-transform: none;
         }
@@ -54,7 +54,8 @@
             color: #445164;
             font-size: 1rem;
         }
-        .grid_container>table td p{
+
+        .grid_container>table td p {
             margin-top: .4rem
         }
     </style>
@@ -77,8 +78,8 @@
                 <p style="margin-top: .4rem; font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
             </article>
 
-            <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                রিপোর্ট তৈরি<br />১২ আগস্ট  ২০২৩ । ০৮ঃ৩০ pm
+            <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: left;">
+                রিপোর্ট তৈরি<br />১২ আগস্ট ২০২৩ । ০৮ঃ৩০ pm
             </p>
             <div style="clear: both;"></div>
         </section>
@@ -165,7 +166,7 @@
                     <tr>
                         <td style="width: 10rem; border-color: transparent;"></td>
                         <td style="width: 17rem; border-color: transparent;"></td>
-                        <td style="border-color: transparent; font-weight: 600; text-align: right;">
+                        <td style="border-color: transparent; font-weight: 600; text-align: left;">
                             <span>মোট খরচ</span>
                         </td>
                         <td
@@ -237,7 +238,7 @@
             </div>
 
             <p
-                style="float: right; width: 33%; padding-top: 3.6rem; text-align: right; font-size: .6rem; color: #000000">
+                style="float: right; width: 33%; padding-top: 3.6rem; text-align: left; font-size: .6rem; color: #000000">
                 Page 1 / 1</p>
         </section>
         <div style="height: 5rem;"></div>

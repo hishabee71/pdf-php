@@ -48,17 +48,6 @@
             border: 1px solid #D1D1D1;
             border-spacing: 0;
         }
-
-        .grid_container>table td {
-            padding: .4rem .8rem;
-            color: #445164;
-            font-size: 1rem;
-            text-transform: uppercase;
-        }
-
-        .grid_container>table td p {
-            margin-top: .4rem
-        }
     </style>
 </head>
 
@@ -75,94 +64,61 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164;">পণ্যের রিপোর্ট</p>
-                <p style="font-size: 1rem; color: #445164;">12 August 2023 to 12 September 2023 </p>
+                <p style="font-size: 1.4rem; color: #445164;">Expired Stock Report</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: left;">
-                রিপোর্ট তৈরি<br />১২ আগস্ট ২০২৩ । ০৮ঃ৩০ pm
+                Report generate<br />12 August 2023, 12:30 pm
             </p>
             <div style="clear: both;"></div>
         </section>
 
-        <section class="grid_container" style="margin-top: 2rem;">
-            <table style="width: 100%; padding:0; border:none;">
-                <tbody>
-                    <tr>
-                        <td colspan="2">
-                            <b>মোট পণ্য</b>
-                            <p>120</p>
-                        </td>
-                        <td colspan="2">
-                            <b>মোট স্টক</b>
-                            <p>12,000</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <b>সাধারণ স্টক</b>
-                            <p>2000</p>
-                        </td>
-                        <td>
-                            <b>ফ্রি স্টক</b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>ড্যামেজ স্টক </b>
-                            <p>200</p>
-                        </td>
-                        <td>
-                            <b>মেয়াদউত্তীর্ণ স্টক</b>
-                            <p>200</p>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
         <section style="margin-top: 1.6rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">পণ্যের তালিকাঃ ৩</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .4rem;">Expired Product list (02)</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th style="width: 16rem;">পণ্যের নাম</th>
-                        <th style="width: 8.9rem;">
-                            <div style="display: flex; flex-direction: column;">
-                                <span>বর্তমান স্টক</span>
-                                <small style="font-size: .7rem; font-weight: 400;">ফ্রি, ড্যামেজ, সহ</small>
-                            </div>
-                        </th>
-                        <th style="width:6.6rem;">ফ্রি স্টক</th>
-                        <th style="width:10.2rem;">ড্যামেজ + মেয়াদোত্তীর্ণ স্টক</th>
-                        <th style="width:7rem;">বেচা দর</th>
+                        <th style="width: 13rem;">product name</th>
+                        <th style="width:8rem;">expired Stock QTY</th>
+                        <th style="width:7rem;">total price</th>
+                        <th style="width:8rem;">remarks</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
+                        <td style="width:8rem;">120</td>
+                        <td style="width:7rem;">৳ 46854</td>
+                        <td style="width:8rem;"></td>
                     </tr>
                     <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml name will be place thius area</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
-                    </tr>
-                    <tr>
-                        <td style="width: 16rem;">Cocacola 300 ml</td>
-                        <td style="width: 8.9rem;"> 200</td>
-                        <td style="width:6.6rem;">20</td>
-                        <td style="width:10.2rem;">৳ 200</td>
-                        <td style="width:7rem;">৳ 200</td>
+                        <td style="width: 13rem;">কোকাকোলা ৪০০ মিলি</td>
+                        <td style="width:8rem;">120</td>
+                        <td style="width:7rem;">৳ 5435</td>
+                        <td style="width:8rem;"></td>
                     </tr>
                 </tbody>
+
+                <tfoot>
+                    <tr>
+                        <td style="width: 13rem; border: none; text-align: left; font-weight: 600;">
+                            <span>Total</span>
+                        </td>
+                        <td
+                            style="width:8rem; border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            100
+                        </td>
+                        <td
+                            style="width:7rem; border-right: none; border-left: none; border-bottom-color: black; font-weight: 600;">
+                            ৳ 20,000
+                        </td>
+                        <td style="width: 8rem; border: none;"></td>
+                    </tr>
+                </tfoot>
             </table>
+
         </section>
 
         <section style="position: absolute; width: 100%; left: 0; bottom: 4rem; padding: 0 3.2rem; height: 5rem;">
