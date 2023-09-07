@@ -64,8 +64,8 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">PRODUCT REPORT</p>
-                <b style="font-size: 1.4rem; color: #090909;">Kitkat Ice Cream 500 gm</b>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">STOCK REPORT</p>
+                <b style="font-size: 1.4rem; color: #090909;">TOTAL PROFIT ৳ 12,000</b>
                 <p style="font-size: 1rem; color: #445164; margin-top: .8rem;">02 August 2023, 12:30 pm</p>
             </article>
 
@@ -77,25 +77,40 @@
 
         {{-- Table 1 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Transaction: 01 August 2023</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Transaction: 01 August to 12 August</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th colspan="2" style="width: 50%; text-align:center;">Rate</th>
-                        <th rowspan="2" style="width: 50%%; text-align:center;">Current stock</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">Total Stock in</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">total Stock Out</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">total Damaged</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">total Expired</th>
+                        <th colspan="2" rowspan="2" style="width: 20%; text-align:center;">Total Profit/loss</th>
                     </tr>
                     <tr>
-                        <th style="width: 25%; font-weight: 500;">Buy rate</th>
-                        <th style="width: 25%; font-weight: 500;">sell rate</th>
+                        <th style="width: 10%; font-weight: 500;">QTy</th>
+                        <th style="width: 10%; font-weight: 500;">Price</th>
+                        <th style="width: 10%; font-weight: 500;">QTy</th>
+                        <th style="width: 10%; font-weight: 500;">Price</th>
+                        <th style="width: 10%; font-weight: 500;">QTy</th>
+                        <th style="width: 10%; font-weight: 500;">Price</th>
+                        <th style="width: 10%; font-weight: 500;">QTy</th>
+                        <th style="width: 10%; font-weight: 500;">Price</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 25%;">238</td>
-                        <td style="width: 25%;">৳ 9,99,60,000</td>
-                        <td style="width: 50%; text-align: center;">৳ 9,99,6</td>
+                        <td style="width: 10%;">238</td>
+                        <td style="width: 10%;">৳ 9,99,60,000</td>
+                        <td style="width: 10%;">238</td>
+                        <td style="width: 10%;">৳ 9,99,60,000</td>
+                        <td style="width: 10%;">238</td>
+                        <td style="width: 10%;">৳ 9,99,60,000</td>
+                        <td style="width: 10%;">238</td>
+                        <td style="width: 10%;">৳ 9,99,60,000</td>
+                        <td colspan="2" style="width: 20%; text-align: center;">৳ 9,99,60,000</td>
                     </tr>
                 </tbody>
             </table>
@@ -103,45 +118,66 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Product List (01)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Product list (04)</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
                         <th rowspan="2" style="width: 4%; text-align:center;">#</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Stock in</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Stock Out</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Damaged</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Expired</th>
-                        <th colspan="2" rowspan="2" style="width: 16%; text-align:center;">Profit (+) <br /> loss
-                            (-)</th>
+                        <th rowspan="2" style="width: 16%;">Product name</th>
+                        <th rowspan="2" style="width: 8%; text-align:center;">current stock</th>
+                        
+                        <th colspan="2" style="width: 15%; text-align:center;">Stock in</th>
+                        <th colspan="2" style="width: 15%; text-align:center;">Stock Out</th>
+                        <th colspan="2" style="width: 15%; text-align:center;">Damaged</th>
+                        <th colspan="2" style="width: 15%; text-align:center;">Expired</th>
+
+                        <th rowspan="2" style="width: 12%; text-align:center;">Total Profit/loss</th>
                     </tr>
                     <tr>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
+                        <th style="width: 7.5%; font-weight: 500;">QTy</th>
+                        <th style="width: 7.5%; font-weight: 500;">Price</th>
+                        <th style="width: 7.5%; font-weight: 500;">QTy</th>
+                        <th style="width: 7.5%; font-weight: 500;">Price</th>
+                        <th style="width: 7.5%; font-weight: 500;">QTy</th>
+                        <th style="width: 7.5%; font-weight: 500;">Price</th>
+                        <th style="width: 7.5%; font-weight: 500;">QTy</th>
+                        <th style="width: 7.5%; font-weight: 500;">Price</th>
                     </tr>
                 </tHead>
 
                 <tbody>
                     <tr>
-                        <td style="width: 4%; text-align: center;">1</td>
+                        <td style="width: 4%; text-align:center;">1</td>
+                        <td style="width: 16%;">কোকাকোলা ৪০০ মিলি</td>
+                        <td style="width: 8%; text-align:center;">0,00,50,0000</td>
+                        
+                        <td style="width: 7.5%;">35342</td>
+                        <td style="width: 7.5%;">43432443</td>
+                        <td style="width: 7.5%;">34</td>
+                        <td style="width: 7.5%;">432432443</td>
+                        <td style="width: 7.5%;">34</td>
+                        <td style="width: 7.5%;">243234324</td>
+                        <td style="width: 7.5%;">4324</td>
+                        <td style="width: 7.5%;">324324324</td>
 
-                        <td style="width: 10%;">238</td>
-                        <td style="width: 10%;">৳ 9,99,60,000</td>
-                        <td style="width: 10%;">238</td>
-                        <td style="width: 10%;">৳ 9,99,60,000</td>
-                        <td style="width: 10%;">238</td>
-                        <td style="width: 10%;">৳ 9,99,60,000</td>
-                        <td style="width: 10%;">238</td>
-                        <td style="width: 10%;">৳ 9,99,60,000</td>
+                        <td style="width: 12%; text-align:center;">543253425435</td>
+                    </tr>
+                    <tr>
+                        <td style="width: 4%; text-align:center;">2</td>
+                        <td style="width: 16%;">কোকাকোলা ৪০০ মিলি</td>
+                        <td style="width: 8%; text-align:center;">0,00,50,0000</td>
+                        
+                        <td style="width: 7.5%;">35342</td>
+                        <td style="width: 7.5%;">43432443</td>
+                        <td style="width: 7.5%;">34</td>
+                        <td style="width: 7.5%;">432432443</td>
+                        <td style="width: 7.5%;">34</td>
+                        <td style="width: 7.5%;">243234324</td>
+                        <td style="width: 7.5%;">4324</td>
+                        <td style="width: 7.5%;">324324324</td>
 
-                        <td colspan="2" style="width: 16%; text-align: center;">৳ 9,99,60,000</td>
+                        <td style="width: 12%; text-align:center;">543253425435</td>
                     </tr>
                 </tbody>
             </table>

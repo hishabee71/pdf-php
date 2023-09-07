@@ -64,30 +64,30 @@
             </article>
 
             <article style="width: 33%; float: left; text-align: center;">
-                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">PRODUCT REPORT</p>
+                <p style="font-size: 1.4rem; color: #445164; margin-bottom: .8rem;">পণ্য রিপোর্ট</p>
                 <b style="font-size: 1.4rem; color: #090909;">Kitkat Ice Cream 500 gm</b>
-                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;">02 August 2023, 12:30 pm</p>
+                <p style="font-size: 1rem; color: #445164; margin-top: .8rem;">০২ আগস্ট ২০২৩, ১২:৩০ pm</p>
             </article>
 
             <p style="width: 33%; float: left; font-size: .8rem; color: #272727; text-align: right;">
-                Report generate<br />12 August 2023
+                রিপোর্ট তৈরিঃ<br />০৮ আগস্ট ২০২৩
             </p>
             <div style="clear: both;"></div>
         </section>
 
         {{-- Table 1 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Transaction: 01 August 2023</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">লেনদেন সময়কালঃ আগস্ট, ২০২৩</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
-                        <th colspan="2" style="width: 50%; text-align:center;">Rate</th>
-                        <th rowspan="2" style="width: 50%%; text-align:center;">Current stock</th>
+                        <th colspan="2" style="width: 50%; text-align:center;">দর</th>
+                        <th rowspan="2" style="width: 50%%; text-align:center;">বর্তমান স্টক</th>
                     </tr>
                     <tr>
-                        <th style="width: 25%; font-weight: 500;">Buy rate</th>
-                        <th style="width: 25%; font-weight: 500;">sell rate</th>
+                        <th style="width: 25%; font-weight: 500;">কেনা দর</th>
+                        <th style="width: 25%; font-weight: 500;">বিক্রি দর</th>
                     </tr>
                 </tHead>
 
@@ -103,28 +103,28 @@
 
         {{-- Table 2 --}}
         <section style="margin-top: 2rem;">
-            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">Product List (01)</p>
+            <p style="font-size: 1.2rem; color: #445164; margin-bottom: .8rem;">পণ্য তালিকা</p>
 
             <table style="width: 100%; padding: 0; border:none;">
                 <tHead>
                     <tr>
                         <th rowspan="2" style="width: 4%; text-align:center;">#</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Stock in</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Stock Out</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Damaged</th>
-                        <th colspan="2" style="width: 20%; text-align:center;">Expired</th>
-                        <th colspan="2" rowspan="2" style="width: 16%; text-align:center;">Profit (+) <br /> loss
-                            (-)</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">স্টক ইন</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">স্টক আউট</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">ড্যামেজ</th>
+                        <th colspan="2" style="width: 20%; text-align:center;">মেয়াদোত্তীর্ণ</th>
+                        <th colspan="2" rowspan="2" style="width: 16%; text-align:center;">লাভ (+) <br /> লস (-)
+                        </th>
                     </tr>
                     <tr>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
-                        <th style="width: 10%; font-weight: 500;">QTy</th>
-                        <th style="width: 10%; font-weight: 500;">Price</th>
+                        <th style="width: 10%; font-weight: 500;">পরিমান</th>
+                        <th style="width: 10%; font-weight: 500;">দর</th>
+                        <th style="width: 10%; font-weight: 500;">পরিমান</th>
+                        <th style="width: 10%; font-weight: 500;">দর</th>
+                        <th style="width: 10%; font-weight: 500;">পরিমান</th>
+                        <th style="width: 10%; font-weight: 500;">দর</th>
+                        <th style="width: 10%; font-weight: 500;">পরিমান</th>
+                        <th style="width: 10%; font-weight: 500;">দর</th>
                     </tr>
                 </tHead>
 
